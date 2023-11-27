@@ -1,7 +1,5 @@
-import ReactDOM from 'react-dom';
-import { Test } from '@zorken17/react';
-
-import { Button, Lable } from '@zorken17/react';
+import ReactDOM from 'react-dom/client';
+import { Button } from '@ab.poc/react/lib/1-atoms/Button/';
 
 const App = () => {
   return (
@@ -14,4 +12,7 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
+root.render(<App />);
