@@ -1,9 +1,11 @@
 {
   "name": "@zorken17/react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "license": "MIT",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/react": "^18.2.38",
