@@ -1,0 +1,18 @@
+{
+  "name": "@zorken17/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "playgrounds/*"
+  ],
+  "devDependencies": {
+    "lerna": "^8.0.0"
+  },
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
+  }
+}
