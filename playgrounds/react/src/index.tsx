@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import {} from '@zorken17/react';
+import { Test } from '@zorken17/react';
 
 import { Button, Lable } from '@zorken17/react';
 
@@ -8,6 +8,8 @@ const App = () => {
     <>
       <Lable id='1'>Label</Lable>
       <Button label='Button' />
+
+      <Test />
     </>
   );
 };
