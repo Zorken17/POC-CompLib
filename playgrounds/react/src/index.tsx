@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom';
+import {} from '@zorken17/react';
 
 import { Button, Lable } from '@zorken17/react';
 

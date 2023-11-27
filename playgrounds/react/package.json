@@ -14,5 +14,8 @@
   },
   "scripts": {
     "dev": "parcel src/index.html -p 3001"
+  },
+  "dependencies": {
+    "@zorken17/react": "^0.2.0"
   }
 }
