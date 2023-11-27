@@ -16,6 +16,6 @@
     "dev": "parcel src/index.html -p 3001"
   },
   "dependencies": {
-    "@ab.poc/react": "^0.6.0"
+    "@ab.poc/react": "0.6.0"
   }
 }

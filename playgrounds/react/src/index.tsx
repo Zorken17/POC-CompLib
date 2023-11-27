@@ -4,10 +4,10 @@ import { Button } from '@ab.poc/react/lib/1-atoms/Button/';
 const App = () => {
   return (
     <>
-      <Lable id='1'>Label</Lable>
+      {/* <Lable id='1'>Label</Lable> */}
       <Button label='Button' />
 
-      <Test />
+      {/* <Test /> */}
     </>
   );
 };
