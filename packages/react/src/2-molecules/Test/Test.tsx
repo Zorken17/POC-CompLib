@@ -1,4 +1,4 @@
-import { Button, Label } from '../../1-atoms';
+import { Button, Label } from '@ab.poc/atoms';
 
 export const Test = () => {
   return (
