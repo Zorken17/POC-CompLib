@@ -12,6 +12,11 @@ export const Button: React.FC<ButtonProps> = ({ label }) => {
   }, [numbOfCicks]);
 
   return (
-    <button onClick={() => setNumbOfClicks(numbOfCicks + 1)}>{label}</button>
+    <button
+      style={{ background: 'red' }}
+      onClick={() => setNumbOfClicks(numbOfCicks + 1)}
+    >
+      {label}
+    </button>
   );
 };
