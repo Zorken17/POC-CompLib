@@ -1,6 +1,6 @@
 {
   "name": "@ab.poc/molecules",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "main": "lib/index.js",
   "license": "MIT",
   "files": [
@@ -24,6 +24,6 @@
   },
   "gitHead": "6f7db4b193e82314cde175405db90e57a0d807a9",
   "dependencies": {
-    "@ab.poc/atoms": "^0.6.4"
+    "@ab.poc/atoms": "^0.6.5"
   }
 }
