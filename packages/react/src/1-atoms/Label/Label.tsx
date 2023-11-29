@@ -4,7 +4,7 @@ interface LabelProps {
   fontWeight?: 'normal' | 'bold' | '900';
 }
 
-export const Lable: React.FC<LabelProps> = ({
+export const Label: React.FC<LabelProps> = ({
   id,
   children,
   fontWeight = 'normal',

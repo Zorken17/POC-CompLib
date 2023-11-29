@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client';
-import { Button } from '@ab.poc/react/lib/1-atoms/Button/';
+import { Button } from '@ab.poc/react';
 
 const App = () => {
   return (
