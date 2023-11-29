@@ -9,5 +9,5 @@ export default {
     preserveModules: true,
   },
   plugins: [typescript()],
-  external: ['react/jsx-runtime', 'react', '@ab.poc/atoms'],
+  external: ['react/jsx-runtime', 'react'],
 };

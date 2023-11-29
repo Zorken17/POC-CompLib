@@ -1,13 +1,16 @@
 import ReactDOM from 'react-dom/client';
-import { Button } from '@ab.poc/react';
+import { Button } from '@ab.poc/atoms';
+import { Test } from '@ab.poc/molecules';
 
 const App = () => {
   return (
     <>
-      {/* <Lable id='1'>Label</Lable> */}
-      <Button label='Button' />
-
-      {/* <Test /> */}
+      <p>This is a Atoms</p>
+      <Button label='Click me' />
+      <br></br>
+      <br></br>
+      <br></br>
+      <Test></Test>
     </>
   );
 };
