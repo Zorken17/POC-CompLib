@@ -21,6 +21,5 @@
   "scripts": {
     "build": "rollup --config --bundleConfigAsCjs",
     "dev": "yarn build --watch"
-  },
-  "gitHead": "6f7db4b193e82314cde175405db90e57a0d807a9"
+  }
 }
